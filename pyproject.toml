@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "egogeneval"
+version = "0.1.0"
+description = "One-command evaluation tooling for the EgoGenEval benchmark"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+authors = [
+  {name = "Yilin Long"},
+  {name = "Chenming Zhu"},
+  {name = "Zitang Gou"},
+  {name = "Jingli Lin"},
+  {name = "Tai Wang"},
+]
+dependencies = [
+  "jsonschema>=4.22,<5",
+  "Pillow>=10,<12",
+  "PyYAML>=6,<7",
+]
+
+[project.optional-dependencies]
+prepare = [
+  "numpy>=1.26,<2.1",
+  "opencv-python-headless>=4.9,<5",
+  "imageio>=2.34,<3",
+  "h5py>=3.10,<4",
+  "tqdm>=4.66,<5",
+]
+scannetpp = [
+  "numpy==2.0.2",
+  "opencv-python-headless==4.10.0.84",
+  "pyrender==0.1.45",
+  "PyOpenGL==3.1.0",
+  "trimesh==5.1.0",
+  "scipy>=1.11,<2",
+  "Pillow==11.3.0",
+]
+data = [
+  "datasets>=2.19,<4",
+]
+# Decoding a video model's per-step clips. Not needed when steps are already
+# extracted stills or frame directories.
+video = [
+  "imageio>=2.34,<3",
+  "imageio-ffmpeg>=0.5,<1",
+]
+full = [
+  "numpy>=1.26,<2.1",
+  "scipy>=1.11,<2",
+  "Pillow>=10,<12",
+  "opencv-python-headless>=4.9,<5",
+  "imageio>=2.34,<3",
+  "imageio-ffmpeg>=0.5,<1",
+  "h5py>=3.10,<4",
+  "tqdm>=4.66,<5",
+  "torch>=2.4,<2.8",
+  "torchvision>=0.19,<0.23",
+  "transformers>=4.51,<5",
+  "accelerate>=1.0,<2",
+  "huggingface-hub>=0.27,<2",
+  "safetensors>=0.4,<1",
+  "openai>=1.50,<2",
+  "qwen-vl-utils>=0.0.8",
+  "scikit-image>=0.24,<1",
+]
+[project.scripts]
+egogeneval = "egogeneval.cli:entrypoint"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+egogeneval = [
+  "resources/*.json",
+  "resources/schemas/*.json",
+  "official/VENDORED_SHA256SUMS",
+]

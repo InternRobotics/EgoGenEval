@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://egogeneval.org/schemas/v0.1/prediction-row.schema.json",
+  "title": "EgoGenEval prediction row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "benchmark_version",
+    "manifest_sha256",
+    "model_id",
+    "model_type",
+    "case_id",
+    "step_id",
+    "output_path",
+    "output_sha256",
+    "interface_type",
+    "input_ids",
+    "prompt_sha256",
+    "generation"
+  ],
+  "properties": {
+    "benchmark_version": {
+      "const": "0.1"
+    },
+    "manifest_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "model_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._+-]*$"
+    },
+    "model_type": {
+      "description": "Generator family declared by the submitter (--model-type).",
+      "type": "string",
+      "enum": [
+        "image",
+        "video",
+        "world-model",
+        "pose-conditioned"
+      ]
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "step_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "output_path": {
+      "type": "string",
+      "minLength": 1,
+      "not": {
+        "pattern": "^(?:/|[A-Za-z]:[\\\\/])"
+      }
+    },
+    "output_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "interface_type": {
+      "description": "Per-case conditioning shape, derived from model_type and the case's num_context_images. Not selected by hand; a submission legitimately mixes values.",
+      "type": "string",
+      "enum": [
+        "image-editing",
+        "multi-image-editing",
+        "pose-conditioned",
+        "autoregressive-rollout"
+      ]
+    },
+    "input_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "prompt_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "generation": {
+      "type": "object"
+    }
+  }
+}

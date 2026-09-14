@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://egogeneval.org/schemas/v0.1/manifest-row.schema.json",
+  "title": "EgoGenEval public manifest row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_id",
+    "root_sample_id",
+    "dataset",
+    "scene_id",
+    "context_type",
+    "num_context_images",
+    "instruction_type",
+    "subtype",
+    "input_images",
+    "target_images",
+    "instructions",
+    "evaluation_protocol",
+    "pose_metadata"
+  ],
+  "properties": {
+    "sample_id": {"type": "string", "minLength": 1},
+    "root_sample_id": {"type": "string", "minLength": 1},
+    "dataset": {
+      "type": "string",
+      "enum": ["hypersim", "matterport3d", "scannet", "scannetpp", "synthetic"]
+    },
+    "scene_id": {"type": "string", "minLength": 1},
+    "context_type": {"type": "string", "enum": ["single", "multi"]},
+    "num_context_images": {"type": "integer", "minimum": 1, "maximum": 4},
+    "instruction_type": {"type": "string", "minLength": 1},
+    "subtype": {"type": "string", "minLength": 1},
+    "input_images": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "items": {"$ref": "#/$defs/image"}
+    },
+    "target_images": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/image"}
+    },
+    "instructions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/instruction"}
+    },
+    "evaluation_protocol": {
+      "type": "object",
+      "required": ["call_mode", "num_model_calls", "use_teacher_forcing"],
+      "properties": {
+        "call_mode": {"type": "string", "minLength": 1},
+        "num_model_calls": {"type": "integer", "minimum": 1},
+        "use_teacher_forcing": {"type": "boolean"},
+        "current_view_update_rule": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "pose_metadata": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "image": {
+      "type": "object",
+      "required": ["role", "image_path", "frame_id"],
+      "properties": {
+        "role": {"type": "string", "minLength": 1},
+        "image_path": {"type": "string", "minLength": 1},
+        "frame_id": {"type": ["string", "integer"]}
+      },
+      "additionalProperties": false
+    },
+    "instruction": {
+      "type": "object",
+      "required": ["step", "text"],
+      "properties": {
+        "step": {"type": "integer", "minimum": 1},
+        "text": {"type": "string", "minLength": 1},
+        "dominant_action": {"type": ["string", "null"]},
+        "action_family": {"type": ["string", "null"]},
+        "atomic_subtype": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    }
+  }
+}

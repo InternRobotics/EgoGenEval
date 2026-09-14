@@ -1,0 +1,11 @@
+# Copy this file outside version control and replace every path.
+evaluator:
+  device: cuda:0
+  da3_code: /absolute/path/to/Depth-Anything-3/src
+  da3_model: /absolute/path/to/DA3NESTED-GIANT-LARGE
+  grounding_dino_model: /absolute/path/to/grounding-dino-base
+  dinov3_model: /absolute/path/to/dinov3-vitl16-pretrain-lvd1689m
+  vlm_backend: local_transformers
+  vlm_model: /absolute/path/to/Qwen3-VL-30B-A3B-Instruct
+  vlm_base_url: ""
+  vlm_api_key_env: ""

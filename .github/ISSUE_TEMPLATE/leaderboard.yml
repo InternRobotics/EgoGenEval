@@ -1,0 +1,42 @@
+name: Leaderboard question
+description: Ask about eligibility or an existing result row.
+title: "[Leaderboard] "
+labels: ["leaderboard"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Model ID
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Method type
+      options:
+        - pose-free
+        - pose-conditioned-reference
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Benchmark / evaluator version
+      placeholder: "0.1 / 0.1"
+    validations:
+      required: true
+  - type: input
+    id: asset_revision
+    attributes:
+      label: Asset revision
+      description: Copy asset_revision from results.json or build_report.json.
+      placeholder: "scannetpp-depth-v2"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Do not upload source benchmark images or private outputs.
+    validations:
+      required: true

@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use EgoGenEval, please cite the benchmark paper and this software."
+title: "EgoGenEval: Community Benchmark Toolkit"
+type: software
+version: 0.1.0
+date-released: 2026-09-01
+authors:
+  - family-names: "Long"
+    given-names: "Yilin"
+  - family-names: "Zhu"
+    given-names: "Chenming"
+  - family-names: "Gou"
+    given-names: "Zitang"
+  - family-names: "Lin"
+    given-names: "Jingli"
+  - family-names: "Wang"
+    given-names: "Tai"
+license: MIT
+keywords:
+  - benchmark
+  - image generation
+  - camera motion
+  - spatial consistency
+preferred-citation:
+  type: article
+  title: "Beyond Visual Quality: Evaluating Physical Consistency under Ego-Motion with EgoGenEval"
+  authors:
+    - family-names: "Long"
+      given-names: "Yilin"
+    - family-names: "Zhu"
+      given-names: "Chenming"
+    - family-names: "Gou"
+      given-names: "Zitang"
+    - family-names: "Lin"
+      given-names: "Jingli"
+    - family-names: "Wang"
+      given-names: "Tai"
+  year: 2026
+  journal: "arXiv"
+  identifiers:
+    - type: other
+      value: "arXiv:2609.11172"
+  url: "https://arxiv.org/abs/2609.11172"

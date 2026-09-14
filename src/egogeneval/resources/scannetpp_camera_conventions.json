@@ -1,0 +1,1213 @@
+{
+  "schema": "egogeneval-scannetpp-camera-conventions-v1",
+  "scenes": {
+    "5b38982d25": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04452"
+      ]
+    },
+    "5f99900f09": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07121"
+      ]
+    },
+    "6855e1ac32": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": []
+    },
+    "6b40d1a939": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05101",
+        "DSC05641",
+        "DSC05656",
+        "DSC06211"
+      ]
+    },
+    "6bd39ac392": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC08530"
+      ]
+    },
+    "6ee2fc1070": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07822",
+        "DSC08320",
+        "DSC08332",
+        "DSC08391",
+        "DSC08512",
+        "DSC08569"
+      ]
+    },
+    "6ef2ac745a": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02282",
+        "DSC02342",
+        "DSC02438",
+        "DSC03018",
+        "DSC03043"
+      ]
+    },
+    "6f12492455": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC08916",
+        "DSC08941",
+        "DSC08951"
+      ]
+    },
+    "7692b88644": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": []
+    },
+    "791a5c253d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01757"
+      ]
+    },
+    "7977624358": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06956",
+        "DSC07034"
+      ]
+    },
+    "7b04052ad0": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": []
+    },
+    "7ffc86edf4": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06459"
+      ]
+    },
+    "825d228aec": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02257",
+        "DSC02277",
+        "DSC02297",
+        "DSC02317"
+      ]
+    },
+    "88627b561e": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02438",
+        "DSC02441",
+        "DSC02444",
+        "DSC02453",
+        "DSC02459",
+        "DSC02464",
+        "DSC02467"
+      ]
+    },
+    "88cf747085": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC08676",
+        "DSC08696",
+        "DSC08701",
+        "DSC08706",
+        "DSC08721",
+        "DSC08781"
+      ]
+    },
+    "89214f3ca0": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC09475",
+        "DSC09485"
+      ]
+    },
+    "8b5caf3398": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02620",
+        "DSC02650",
+        "DSC02680"
+      ]
+    },
+    "8be0cd3817": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07161",
+        "DSC07191"
+      ]
+    },
+    "8de35c04a3": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07177",
+        "DSC07357"
+      ]
+    },
+    "8e6ff28354": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04180",
+        "DSC04220"
+      ]
+    },
+    "8fc40ba77b": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00964",
+        "DSC00984"
+      ]
+    },
+    "927aacd5d1": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03561",
+        "DSC03601"
+      ]
+    },
+    "928c9da20c": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06124",
+        "DSC06134"
+      ]
+    },
+    "94ee15e8ba": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03062",
+        "DSC03252"
+      ]
+    },
+    "951f01c9ad": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00894",
+        "DSC00904"
+      ]
+    },
+    "961911d451": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00382",
+        "DSC00837",
+        "DSC00857"
+      ]
+    },
+    "979a852c94": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06293",
+        "DSC06303"
+      ]
+    },
+    "98b4ec142f": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00823",
+        "DSC00833"
+      ]
+    },
+    "99eae0b1f8": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04432",
+        "DSC04433",
+        "DSC04444",
+        "DSC04454",
+        "DSC04456",
+        "DSC04465",
+        "DSC04471",
+        "DSC04476",
+        "DSC04885"
+      ]
+    },
+    "9dc5ad040f": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01166",
+        "DSC01176",
+        "DSC01191",
+        "DSC01201"
+      ]
+    },
+    "9f139a318d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00084",
+        "DSC00094",
+        "DSC00114"
+      ]
+    },
+    "9f21bdec45": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00239",
+        "DSC00269",
+        "DSC00289",
+        "DSC00319",
+        "DSC00329",
+        "DSC00334",
+        "DSC00494",
+        "DSC00514",
+        "DSC00524",
+        "DSC00569",
+        "DSC00579",
+        "DSC00589",
+        "DSC00599",
+        "DSC00669",
+        "DSC00674",
+        "DSC00679",
+        "DSC00689",
+        "DSC00699",
+        "DSC00714",
+        "DSC00724"
+      ]
+    },
+    "a08d9a2476": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02446",
+        "DSC02486"
+      ]
+    },
+    "a24858e51e": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00325",
+        "DSC00335",
+        "DSC00340"
+      ]
+    },
+    "a24f64f7fb": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05339",
+        "DSC05634",
+        "DSC05644"
+      ]
+    },
+    "a4d48ea6b3": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02616",
+        "DSC02626",
+        "DSC02636",
+        "DSC02646"
+      ]
+    },
+    "a5114ca13d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04490",
+        "DSC04500"
+      ]
+    },
+    "a56eda3549": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07564",
+        "DSC07579",
+        "DSC07606",
+        "DSC07633",
+        "DSC07718",
+        "DSC07720",
+        "DSC07738",
+        "DSC07739",
+        "DSC07746",
+        "DSC07747",
+        "DSC07748",
+        "DSC07753",
+        "DSC07768"
+      ]
+    },
+    "a5dc38bf22": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05130",
+        "DSC05140",
+        "DSC05165",
+        "DSC05175",
+        "DSC05180",
+        "DSC05185",
+        "DSC05190",
+        "DSC05210",
+        "DSC05215"
+      ]
+    },
+    "a66af39cef": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03382",
+        "DSC03417",
+        "DSC03532",
+        "DSC03537"
+      ]
+    },
+    "a8bf42d646": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00759",
+        "DSC00769"
+      ]
+    },
+    "a980334473": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04400",
+        "DSC04410",
+        "DSC04420",
+        "DSC04430"
+      ]
+    },
+    "aa6e508f0c": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04357",
+        "DSC04377",
+        "DSC04382",
+        "DSC04392",
+        "DSC04417",
+        "DSC04427",
+        "DSC04442",
+        "DSC04520",
+        "DSC04530",
+        "DSC04575",
+        "DSC04621"
+      ]
+    },
+    "ab252b28c0": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06046",
+        "DSC06156",
+        "DSC06166"
+      ]
+    },
+    "ab4f373966": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07403",
+        "DSC07563",
+        "DSC07568"
+      ]
+    },
+    "abdb2a6169": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01712",
+        "DSC01763",
+        "DSC01783"
+      ]
+    },
+    "acd69a1746": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05034",
+        "DSC05039",
+        "DSC05164"
+      ]
+    },
+    "acd95847c5": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC09512",
+        "DSC09522",
+        "DSC09552",
+        "DSC09582"
+      ]
+    },
+    "ad039341f9": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00071",
+        "DSC00091"
+      ]
+    },
+    "ad2d07fd11": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01919",
+        "DSC01929",
+        "DSC01934",
+        "DSC01939",
+        "DSC02157"
+      ]
+    },
+    "af112b8903": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01467",
+        "DSC01471",
+        "DSC01476",
+        "DSC01478",
+        "DSC01515",
+        "DSC01536",
+        "DSC01542",
+        "DSC01551",
+        "DSC01554"
+      ]
+    },
+    "afd049e07c": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC08799",
+        "DSC08809"
+      ]
+    },
+    "b068706ef0": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06514",
+        "DSC06524"
+      ]
+    },
+    "b08a908f0f": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02175",
+        "DSC02205",
+        "DSC02260"
+      ]
+    },
+    "b119249da7": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05014",
+        "DSC05084"
+      ]
+    },
+    "b1d75ecd55": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06204",
+        "DSC06264"
+      ]
+    },
+    "b20a261fdf": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01338",
+        "DSC01348"
+      ]
+    },
+    "b37c033757": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07971",
+        "DSC08001"
+      ]
+    },
+    "b3ac0beef0": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03916",
+        "DSC03926",
+        "DSC03931",
+        "DSC03936",
+        "DSC03946"
+      ]
+    },
+    "b97261909e": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03964",
+        "DSC03974",
+        "DSC04056"
+      ]
+    },
+    "bb87c292ad": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07169",
+        "DSC07199",
+        "DSC07268"
+      ]
+    },
+    "bcd2436daf": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05432",
+        "DSC05437",
+        "DSC05442",
+        "DSC05457",
+        "DSC05462",
+        "DSC05467",
+        "DSC05472",
+        "DSC05643",
+        "DSC05648",
+        "DSC05654"
+      ]
+    },
+    "bd9305480d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05540",
+        "DSC05560"
+      ]
+    },
+    "bde1e479ad": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02457",
+        "DSC02468",
+        "DSC02473"
+      ]
+    },
+    "be0ed6b33c": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07912",
+        "DSC08084"
+      ]
+    },
+    "be6205d016": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01592",
+        "DSC01627",
+        "DSC01647"
+      ]
+    },
+    "be66c57b92": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05287",
+        "DSC05297"
+      ]
+    },
+    "bf07750a0b": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06103",
+        "DSC06361"
+      ]
+    },
+    "bf6e439e38": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00607",
+        "DSC00617"
+      ]
+    },
+    "bfd3fd54d2": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07628",
+        "DSC07646",
+        "DSC07664",
+        "DSC07718",
+        "DSC07727",
+        "DSC07730",
+        "DSC07733"
+      ]
+    },
+    "c0c863b72d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00116",
+        "DSC00126"
+      ]
+    },
+    "c173f62b15": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03035",
+        "DSC03165"
+      ]
+    },
+    "c340418532": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06522",
+        "DSC06532",
+        "DSC06542",
+        "DSC06547",
+        "DSC06552",
+        "DSC06677",
+        "DSC06687"
+      ]
+    },
+    "c5439f4607": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05762",
+        "DSC05767",
+        "DSC05772",
+        "DSC05782"
+      ]
+    },
+    "c5f701a8c7": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01205",
+        "DSC01545",
+        "DSC01610",
+        "DSC01615",
+        "DSC01620",
+        "DSC01640",
+        "DSC01655",
+        "DSC01660",
+        "DSC01665",
+        "DSC01685",
+        "DSC01705",
+        "DSC01710",
+        "DSC02050",
+        "DSC02055",
+        "DSC02314",
+        "DSC02324"
+      ]
+    },
+    "c6e247f6c3": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06502",
+        "DSC06522",
+        "DSC06527"
+      ]
+    },
+    "c842edbdf5": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC09784",
+        "DSC09949"
+      ]
+    },
+    "c8f2218ee2": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04188",
+        "DSC04193",
+        "DSC04228"
+      ]
+    },
+    "c9abde4c4b": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00159",
+        "DSC00169"
+      ]
+    },
+    "ca3b651c23": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02173",
+        "DSC02304",
+        "DSC02314"
+      ]
+    },
+    "cbd4b3055e": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07656",
+        "DSC07666"
+      ]
+    },
+    "ce3a7945ce": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02715",
+        "DSC02725",
+        "DSC02755",
+        "DSC02760",
+        "DSC02780",
+        "DSC02785",
+        "DSC02795",
+        "DSC02839",
+        "DSC02869",
+        "DSC02894",
+        "DSC02904"
+      ]
+    },
+    "cf1ffd871d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03924",
+        "DSC03949",
+        "DSC03974",
+        "DSC03999",
+        "DSC04004",
+        "DSC04014",
+        "DSC04029",
+        "DSC04054",
+        "DSC04064",
+        "DSC04074",
+        "DSC04079",
+        "DSC04154",
+        "DSC04179",
+        "DSC04439",
+        "DSC04449",
+        "DSC04574",
+        "DSC04589"
+      ]
+    },
+    "d070e22e3b": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05780",
+        "DSC05785",
+        "DSC05790",
+        "DSC05985",
+        "DSC05995",
+        "DSC06005",
+        "DSC06015",
+        "DSC06025",
+        "DSC06040",
+        "DSC06045",
+        "DSC06050",
+        "DSC06055",
+        "DSC06075",
+        "DSC06255",
+        "DSC06265",
+        "DSC06275",
+        "DSC06365"
+      ]
+    },
+    "d14b81c0c2": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC09221",
+        "DSC09231"
+      ]
+    },
+    "d1f82299d0": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00106",
+        "DSC00161",
+        "DSC00256"
+      ]
+    },
+    "d2f44bf242": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC08884",
+        "DSC09050",
+        "DSC09055"
+      ]
+    },
+    "d662592b54": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00082",
+        "DSC00092"
+      ]
+    },
+    "d6cbe4b28b": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07583",
+        "DSC07603",
+        "DSC07618",
+        "DSC07638",
+        "DSC08203",
+        "DSC08228",
+        "DSC08548",
+        "DSC08583",
+        "DSC08870",
+        "DSC08880",
+        "DSC08995",
+        "DSC09015",
+        "DSC09025",
+        "DSC09030",
+        "DSC09040",
+        "DSC09360"
+      ]
+    },
+    "d6d9ddb03f": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04746",
+        "DSC04756",
+        "DSC04766",
+        "DSC04776"
+      ]
+    },
+    "d7abfc4b17": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC09275",
+        "DSC09295",
+        "DSC09608"
+      ]
+    },
+    "d807fb583b": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02177",
+        "DSC02187"
+      ]
+    },
+    "d902931864": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00764",
+        "DSC00829",
+        "DSC00844",
+        "DSC00854",
+        "DSC00869"
+      ]
+    },
+    "db32da9b42": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC09375",
+        "DSC09596"
+      ]
+    },
+    "dc5f00843f": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03115",
+        "DSC03125"
+      ]
+    },
+    "dec0b11090": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07625",
+        "DSC07635"
+      ]
+    },
+    "e01b287af5": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01814",
+        "DSC01844",
+        "DSC01964"
+      ]
+    },
+    "e050c15a8d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04499",
+        "DSC04609",
+        "DSC04634"
+      ]
+    },
+    "e1aa584dd5": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06452",
+        "DSC06538",
+        "DSC06548",
+        "DSC06558",
+        "DSC06568"
+      ]
+    },
+    "e2caaaf5b5": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06970",
+        "DSC06980"
+      ]
+    },
+    "e3c1da58dd": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01686",
+        "DSC01721",
+        "DSC01726"
+      ]
+    },
+    "e3ecd49e2b": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01070",
+        "DSC01080",
+        "DSC01180"
+      ]
+    },
+    "e69064f2f3": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00026",
+        "DSC09964",
+        "DSC09974"
+      ]
+    },
+    "e7af285f7d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02678",
+        "DSC02693",
+        "DSC02703",
+        "DSC02718"
+      ]
+    },
+    "e7ccd75e5d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01404",
+        "DSC01564",
+        "DSC01654"
+      ]
+    },
+    "e814070fd4": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC01618",
+        "DSC01638",
+        "DSC01858"
+      ]
+    },
+    "e898c76c1f": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03506",
+        "DSC03516"
+      ]
+    },
+    "e8e81396b6": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05103",
+        "DSC05113",
+        "DSC05123"
+      ]
+    },
+    "e8ea9b4da8": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC06084",
+        "DSC06094",
+        "DSC06099"
+      ]
+    },
+    "e91722b5a3": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05643",
+        "DSC05673"
+      ]
+    },
+    "e9ac2fc517": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC08671",
+        "DSC08681",
+        "DSC09081",
+        "DSC09151"
+      ]
+    },
+    "eb4bc76767": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00381",
+        "DSC00396",
+        "DSC00411",
+        "DSC00426"
+      ]
+    },
+    "ebc200e928": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05149",
+        "DSC05179",
+        "DSC05209",
+        "DSC05239"
+      ]
+    },
+    "ef25276c25": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07020",
+        "DSC07100",
+        "DSC07110"
+      ]
+    },
+    "ef9428c5cd": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05661",
+        "DSC05681",
+        "DSC06323"
+      ]
+    },
+    "f07340dfea": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04054",
+        "DSC04064",
+        "DSC04069",
+        "DSC04074",
+        "DSC04099"
+      ]
+    },
+    "f2ec1f6a04": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC08079",
+        "DSC08194",
+        "DSC08649"
+      ]
+    },
+    "f34d532901": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC03045",
+        "DSC03055",
+        "DSC03060"
+      ]
+    },
+    "f368a1f730": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05950",
+        "DSC05960",
+        "DSC05970",
+        "DSC05980",
+        "DSC06020",
+        "DSC06030",
+        "DSC06040",
+        "DSC06050"
+      ]
+    },
+    "f3f016ba3f": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02965",
+        "DSC03080",
+        "DSC03269"
+      ]
+    },
+    "f47ec86138": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC08861",
+        "DSC08871",
+        "DSC09121",
+        "DSC09126",
+        "DSC09131",
+        "DSC09206",
+        "DSC09476",
+        "DSC09541",
+        "DSC09551",
+        "DSC09566",
+        "DSC09576",
+        "DSC09601"
+      ]
+    },
+    "f6659a3107": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC05063",
+        "DSC05066",
+        "DSC05069",
+        "DSC05075"
+      ]
+    },
+    "f6a9b64a0d": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00220",
+        "DSC00260",
+        "DSC00270",
+        "DSC00280",
+        "DSC00290",
+        "DSC00295",
+        "DSC00305",
+        "DSC00320",
+        "DSC00330",
+        "DSC00340",
+        "DSC00390",
+        "DSC00430",
+        "DSC00435",
+        "DSC00475",
+        "DSC00603",
+        "DSC00613",
+        "DSC00623",
+        "DSC00638",
+        "DSC00676",
+        "DSC00821",
+        "DSC00938"
+      ]
+    },
+    "f7a60ba2a2": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00204",
+        "DSC00244"
+      ]
+    },
+    "f7d34e6706": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02279",
+        "DSC02294",
+        "DSC02519"
+      ]
+    },
+    "f8062cb7ce": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC09054",
+        "DSC09224",
+        "DSC09249"
+      ]
+    },
+    "f94c225e84": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07177",
+        "DSC07367"
+      ]
+    },
+    "f97de2c3e9": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04720",
+        "DSC04740",
+        "DSC04750",
+        "DSC04760",
+        "DSC04765",
+        "DSC04990",
+        "DSC05000",
+        "DSC05050",
+        "DSC05115",
+        "DSC05134",
+        "DSC05154",
+        "DSC05159",
+        "DSC05169"
+      ]
+    },
+    "faec2f0468": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC00851",
+        "DSC00861",
+        "DSC00871",
+        "DSC00876",
+        "DSC00881"
+      ]
+    },
+    "fb05e13ad1": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC02498",
+        "DSC02508",
+        "DSC02518",
+        "DSC02528"
+      ]
+    },
+    "fb152519ad": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC07946",
+        "DSC08026"
+      ]
+    },
+    "fd361ab85f": {
+      "intrinsics_center_offset": 0.5,
+      "depth_half_pixel_frames": [
+        "DSC04601",
+        "DSC04621"
+      ]
+    }
+  }
+}
